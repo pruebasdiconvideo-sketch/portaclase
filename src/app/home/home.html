@@ -1,0 +1,26 @@
+<section class="home">
+
+    <h1 class="text-primary">BruceRoom  Portafolio</h1>
+    <h2>Alumno por pasión</h2>
+    <p>Bienvenidos a mi website personal, diviértete y navega por mis
+    proyectos.</p>
+
+    <a routerLink="/contact">
+    <button class="btn btn-danger">Contactar</button>
+    </a>
+
+    <h3 class="text-secondary">Ejemplos de pipes:</h3>
+
+    <p> {{ nombre | uppercase }} </p>
+    <p> {{ nombre | lowercase }} </p>
+    <p> {{ fecha | date: 'dd/MM/yyy'}}  </p>
+    <p> {{ precio | currency: 'S/': 'symbol'}}  </p>
+    <p> {{ porcentaje | percent }}  </p>
+    <p> {{ precio | number: '1.2-2' }} </p>
+
+    <h3>Lista de productos</h3>
+    @for (product of products; track product.id){
+        <p> Nro: {{product.id}} - {{product.name}} - S/ {{product.price}} </p>
+    }
+
+</section>

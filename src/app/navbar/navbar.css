@@ -1,0 +1,27 @@
+header{
+    background-color: #a10000;
+    color: #ffffff;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px 10%;
+    justify-items: center;
+    box-shadow: 10px;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    gap: 32px;
+}
+
+ul li{
+    cursor: pointer;
+}
+
+ul li:hover{
+    text-decoration: underline;
+}
+
+h1{
+    border: 5px;
+}

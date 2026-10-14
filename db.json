@@ -1,0 +1,35 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "name": "Laptop",
+      "price": 4500
+    },
+
+    {
+      "id": 2,
+      "name": "Moto Ducati",
+      "price": 90000
+    },
+
+    {
+      "id": 3,
+      "name": "Entrada BTS",
+      "price": 2591
+    },
+
+    {
+      "id": 4,
+      "name": "Auto BMW",
+      "price": 46507
+    },
+
+    {
+      "id": 5,
+      "name": "GTA 6",
+      "price": 300
+    }
+
+
+  ]
+}

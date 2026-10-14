@@ -1,0 +1,21 @@
+<h2>Formulario Login</h2>
+
+<div class="container">
+  <form (ngSubmit) ="inicarSesion()">
+    <div class="mb-3">
+      <label class="form-label">Correo Electronico</label>
+
+      <input type="email" name="email" [(ngModel)]="email" placeholder="correo@ejemplo.com">
+    </div>
+
+    <div class="mb-3">
+      <label class="form-label">Contraseña</label>
+
+      <input type="password" name="password" [(ngModel)]="password" placeholder="Ingrese su Contraseña">
+    </div>
+
+    <button type="submit" class="btn btn-black">Ingresar</button>
+
+  </form>
+
+</div>
